@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load("jquery", "1.4.4");</script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/chat.js"></script>
+  </head>
+  <body>
+    <input type="text" name="message" id="message" />
+    <button id="btn">送信</button>
+    <button id="delete">削除</button>
+    <dl id="list"></dl>
+  </body>
+</html>
